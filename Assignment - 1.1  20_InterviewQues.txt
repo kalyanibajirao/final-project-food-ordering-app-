@@ -1,0 +1,73 @@
+Question 1: What is Pythonpath?
+Answer: A Pythonpath tells the Python interpreter to locate the module files that can be imported into the program.
+	It includes the Python source library directory and source code directory.
+
+Question 2: What can be the length of the identifier in Python?
+Answer: The length of the identifier in Python can be of any length. The longest identifier will violate from PEP – 8 and PEP – 20.
+
+Question 3: Define Pass statement in Python?
+Answer: A Pass statement in Python is used when we cannot decide what to do in our code, but we must type something for making syntactically correct.
+
+Question 4: Can we reverse a list in Python?
+Answer: Yes, we can reserve a list in Python using the reverse() method.
+
+Question 5: Does Python support an intrinsic do-while loop?
+Answer: No Python does not support an intrinsic do-while loop.
+
+Question 6: How are identity operators different than the membership operators?
+Answer: Unlike membership operators, the identity operators compare the values to find out if they have the same value or not.
+
+Question 7: What is PEP 8 and why is it important?
+Answer: PEP stands for Python Enhancement Proposal. 
+A PEP is an official design document providing information to the Python community, or describing a new feature for Python or its processes. 
+PEP 8 is especially important since it documents the style guidelines for Python Code. 
+Apparently contributing to the Python open-source community requires you to follow these style guidelines sincerely and strictly.
+
+Question 8: What is Scope in Python?
+Answer: A scope is a block of code where an object in Python remains relevant.
+	1. A local scope refers to the local objects available in the current function.
+	2. A global scope refers to the objects available throughout the code execution since their inception.
+	3. A module-level scope refers to the global objects of the current module accessible in the program.
+	4. An outermost scope refers to all the built-in names callable in the program. The objects in this scope are searched last to find the name referenced.
+	Note: Local scope objects can be synced with global scope objects using keywords such as global.
+
+Question 9: What is the output of print str[2:] if str = 'Hello World!'?
+Answer: It will print characters starting from 3rd character. Output would be llo World!
+
+Question 10: What is the output of print str + "TEST" if str = 'Hello World!'?
+Answer: It will print concatenated string. Output would be Hello World!TEST.
+
+Question 11: What is the output of print tinylist * 2 if tinylist = [123, 'john']?
+Answer: It will print list two times. Output would be [123, 'john', 123, 'john'].
+
+Question 12: What is the difference between tuples and lists in Python?
+Answer: The main differences between lists and tuples are − 
+	Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, 
+	while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
+
+Question 13: How will you convert a object to a regular expression in python?
+Answer: repr(x) − Converts object x to an expression string.
+
+Question 14: How will you convert a string to a frozen set in python?
+Answer: frozenset(s) − Converts s to a frozen set.
+
+Question 15: How will you convert an integer to an unicode character in python?
+Answer: unichr(x) − Converts an integer to a Unicode character.
+
+Question 16: How can you pick a random item from a list or tuple?
+Answer: choice(seq) − Returns a random item from a list, tuple, or string.
+
+Question 17: How can you pick a random item from a range?
+Answer: randrange ([start,] stop [,step]) − returns a randomly selected element from range(start, stop, step).
+
+Question 18: How will you merge elements in a sequence?
+Answer: join(seq) − Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string.
+
+
+Question 19: How will you remove all leading whitespace in string?
+Answer: lstrip() − Removes all leading whitespace in string.
+
+
+Question 20: What is lambda function in python?
+Answer: ‘lambda’ is a keyword in python which creates an anonymous function. 
+	Lambda does not contain block of statements. It does not contain return statements.
